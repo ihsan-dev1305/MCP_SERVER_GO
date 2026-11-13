@@ -1,0 +1,29 @@
+# Binaries and build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+
+# Test and scratch output
+errors.txt
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
